@@ -5,15 +5,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<!-- Link static CSS -->
-	<link rel="stylesheet" type="text/css" href="/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/reset.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Baloo|Roboto" rel="stylesheet">
 </head>
 <body>
 	<div class="container content">
 		<h1>Survey</h1>
-		<p>Take a quick survey to find your perfect match! These questions are answered by the numbers 1 through 5.
-			If you really, really disagree with the statement, your answer would be 1.
-			If you find a statement to hit extremely close to home, put in a 5.</p>
+		<p>Take a quick survey to find your perfect match!</p>
+		<p>Select between 1 to 5 (Disagree = 1 ... Totally Agree = 5)</p>
 		<form>
 			<div class="form-group">
 				<input id="name" type="text" class="form-control" placeholder="Name (Required)">
@@ -156,17 +156,15 @@
 		</div>
 	</div>
 
-	<footer>
+	<footer class="footer">
 		<div class="container">
-			<a href="/api/friends">Discover Geek Friends</a>
+			<a href="/api/friends" target="_blank">Discover Geek Friends</a>
 			<span>|</span>
-			<a href="https://github.com/FULLSTACK-SY/FriendFinder.git">GitHub Repo</a>
+			<a href="https://github.com/FULLSTACK-SY/FriendFinder.git" target="_blank">GitHub Repo</a>
 		</div>
 	</footer>
 
-	<script
-	  src="https://code.jquery.com/jquery-3.2.1.min.js"
-	  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
